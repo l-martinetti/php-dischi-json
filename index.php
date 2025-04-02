@@ -37,6 +37,49 @@ $dischi = json_decode($json_dischi, true);
 
             <?php } ?>
         </div>
+        
+        <div class="container d-flex align-items-center my-5 flex-column">
+            <h1 class="mb-3">Aggiungi il tuo disco</h1>
+
+            <!--Form aggiunta disco -->
+            <form action="" method="POST" style="width: 36rem; text-align: center;">
+
+                <div class="mb-3">
+                    <label for="record_title" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" id="record_title" name="record_title"
+                    placeholder="Titolo del disco...">
+                </div>
+
+                <div class="mb-3">
+                    <label for="record_artist" class="form-label">Artista</label>
+                    <input type="text" class="form-control" id="record_artist" name="record_artist"
+                    placeholder="Artista...">
+                </div>
+
+                <div class="mb-3">
+                    <label for="record_image_url" class="form-label">Immagine cover disco</label>
+                    <input type="text" class="form-control" id="record_image_url" name="record_image_url"
+                    placeholder="Url dell'immagine...">
+                </div>
+
+                <div class="mb-3">
+                    <label for="record_year" class="form-label">Anno di pubblicazione</label>
+                    <input type="number" class="form-control" id="record_year" name="record_year"
+                    placeholder="Anno..." min="1950" max="2025">
+                </div>
+
+                <div class="mb-3">
+                    <label for="record_genre" class="form-label">Genere musicale</label>
+                    <input type="text" class="form-control" id="record_genre" name="record_genre"
+                    placeholder="Genere...">
+                </div>
+
+            
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+        </div>
     </main>
 </body>
 </html>
+
