@@ -1,0 +1,37 @@
+[
+    {
+        "titolo": "Bohemian Rhapsody",
+        "artista": "Queen",
+        "url_cover": "https://example.com/bohemian_rhapsody.jpg",
+        "anno_pubblicazione": 1975,
+        "genere": "Rock"
+    },
+    {
+        "titolo": "Billie Jean",
+        "artista": "Michael Jackson",
+        "url_cover": "https://example.com/billie_jean.jpg",
+        "anno_pubblicazione": 1982,
+        "genere": "Pop"
+    },
+    {
+        "titolo": "Smells Like Teen Spirit",
+        "artista": "Nirvana",
+        "url_cover": "https://example.com/smells_like_teen_spirit.jpg",
+        "anno_pubblicazione": 1991,
+        "genere": "Grunge"
+    },
+    {
+        "titolo": "Shape of You",
+        "artista": "Ed Sheeran",
+        "url_cover": "https://example.com/shape_of_you.jpg",
+        "anno_pubblicazione": 2017,
+        "genere": "Pop"
+    },
+    {
+        "titolo": "Lose Yourself",
+        "artista": "Eminem",
+        "url_cover": "https://example.com/lose_yourself.jpg",
+        "anno_pubblicazione": 2002,
+        "genere": "Hip-Hop"
+    }
+]
