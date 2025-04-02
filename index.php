@@ -42,7 +42,7 @@ $dischi = json_decode($json_dischi, true);
             <h1 class="mb-3">Aggiungi il tuo disco</h1>
 
             <!--Form aggiunta disco -->
-            <form action="" method="POST" style="width: 36rem; text-align: center;">
+            <form action="server.php" method="POST" style="width: 36rem; text-align: center;">
 
                 <div class="mb-3">
                     <label for="record_title" class="form-label">Titolo</label>
